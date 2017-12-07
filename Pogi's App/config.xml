@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="app.bsit.sectione" version="9.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>3 BS IT E</name>
-    <description>My Favorite Section!!! Forever</description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Petmalu Lodi Werpa
+    <name>League of Legends</name>
+    <description>This is my Final App</description>
+    <author email="joshvperez09@gmail.com" href="http://Joshmarz09.io">
+        Sa wakas!
     </author>
     <content src="index.html" />
     <access origin="*" />

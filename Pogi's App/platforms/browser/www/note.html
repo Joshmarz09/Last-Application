@@ -1,0 +1,126 @@
+<!Doctype html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="framework7.material.min.css">
+        <link rel="stylesheet" type="text/css" href="framework7.material.colors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+
+    <style>
+
+ body {
+  font-family: 'Arial';
+ }
+      
+.icon-bar {
+    width: 100%;
+    background-color: blue;
+    overflow: auto;
+    font-size: 36px;
+    padding-left: 20px;
+    padding: 20px;
+}
+
+.icon-bar i {
+    float: right;
+    padding-right: 5px;
+    width: 10%;
+    height: 20%;
+    color: white;
+    font-size: 60px;
+
+}
+
+.sidenav {
+    height: 100%;
+ /*   width: 30%*/;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+    </style>
+ 
+<!--         <div id="root"></div>
+        <div id="nav"></div> -->
+<body class="framework7-root bg2">
+  
+<div class="icon-bar">
+<div id="mySidenav" class="sidenav">
+  
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Aatrox.html">Aatrox</a>
+  <a href="#">Ahri</a>
+  <a href="#">Akali</a>
+  <a href="#">Alistar</a>
+</div>
+
+<a href="#"><i class="fa fa-trash"></i></a>
+<a href="note.html"><i class="fa fa-check"></i></a>
+
+<span style="font-size:50px;color:white;cursor:pointer;padding: 10px;" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+       
+
+    </body>
+     <script crossorigin type="text/javascript" src="js/react.min.js"></script>
+     <script crossorigin type="text/javascript" src="js/react-dom.min.js"></script>
+     <script crossorigin type="text/javascript" src="js/babel.min.js"></script>
+     <script crossorigin type="text/javascript" src="js/framework7.min.js"></script>
+     <script type="text/javascript" src="js/worker.sql.js"></script>
+     <script type="text/javascript" src="js/sql.js"></script>
+     <script type="text/jsx" src="js/process.js"></script>
+     <script type="text/javascript" src="js/sqlite.js"></script>
+
+
+   
+
+</html>
+
